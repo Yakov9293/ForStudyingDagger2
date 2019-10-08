@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_boat"
+        android:icon="@drawable/ic_directions_boat_black_24dp"
+        android:title="Boat"
+        />
+    <item
+        android:id="@+id/nav_railway"
+        android:icon="@drawable/ic_directions_railway_black_24dp"
+        android:title="Railway"
+        />
+    <item
+        android:id="@+id/nav_car"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Car"
+        />
+
+</menu>
