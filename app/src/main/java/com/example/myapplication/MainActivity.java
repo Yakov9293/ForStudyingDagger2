@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navSelectLitner);
     }
@@ -29,12 +31,15 @@ public class MainActivity extends AppCompatActivity {
             switch (menuItem.getItemId())
             {
                 case R.id.nav_railway:
+
                     selectedFragment = new RailwayFragment();
                     break;
                 case R.id.nav_boat:
+                    //getSupportActionBar().hide();
                     selectedFragment = new BoatFragment();
                     break;
                 case R.id.nav_car:
+                    //getSupportActionBar().hide();
                     selectedFragment = new CarFragment();
                     break;
             }
