@@ -19,8 +19,6 @@ public class BoatFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_boat, container, false);
 
-        ((AppCompatActivity) getActivity()).getSupportActionBar().hide();
-
         return view;
     }
 }

@@ -17,8 +17,6 @@ public class CarFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_car, container, false);
 
-        ((AppCompatActivity) getActivity()).getSupportActionBar().hide();
-
         return view;
     }
 }

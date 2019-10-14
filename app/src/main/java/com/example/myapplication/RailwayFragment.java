@@ -17,8 +17,6 @@ public class RailwayFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_railway, container, false);
 
-        ((AppCompatActivity) getActivity()).getSupportActionBar().show();
-
         return view;
     }
 }
