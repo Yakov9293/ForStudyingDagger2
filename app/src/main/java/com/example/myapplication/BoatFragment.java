@@ -37,10 +37,11 @@ public class BoatFragment extends Fragment {
         motorBoat.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                preferences.edit().putBoolean("switchBoat", isChecked).commit();
+                preferences.edit().putBoolean("switchBoat", isChecked).apply();
             }
         });
 
         return view;
     }
+
 }
